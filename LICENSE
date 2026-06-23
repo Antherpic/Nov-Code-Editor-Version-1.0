@@ -1,0 +1,24 @@
+cat << 'EOF' > LICENSE
+===================================================================
+                      OFFICIAL SOFTWARE LICENSE                    
+       Copyright (c) 2026 - Beyond, Antherpic Technologies         
+===================================================================
+
+Hak Cipta Dilindungi Undang-Undang.
+
+Dengan ini diberikan izin kepada pemilik sistem "Arch X" untuk 
+menggunakan, menggandakan, dan memodifikasi perangkat lunak "NOV" 
+ini untuk keperluan pengembangan pribadi maupun korporasi di bawah 
+naungan Antherpic Technologies.
+
+Perangkat lunak ini disediakan "SEBAGAIMANA ADANYA", tanpa jaminan 
+dalam bentuk apa pun, baik tersurat maupun tersirat. Dalam hal apa 
+pun, Antherpic Technologies tidak bertanggung jawab atas klaim, 
+kerusakan, atau kewajiban lain yang timbul dari pengoperasian 
+perangkat lunak ini.
+
+-------------------------------------------------------------------
+[ REGISTERED LICENSE ID: AN-2026-ARCHX ]
+-------------------------------------------------------------------
+EOF
+
