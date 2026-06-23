@@ -25,3 +25,36 @@ clang nov.c -lncurses -o nov
 
 # Pindahkan ke folder sistem agar bisa dipanggil dari mana saja
 mv nov $PREFIX/bin/
+
+
+LINUX
+
+# Install compiler dan library ncurses
+sudo apt update
+sudo apt install git gcc libncurses5-dev libncursesw5-dev -y
+
+# Clone repository
+git clone [https://github.com/Antherpic/Nov-Code-Editor-Version-1.0.git](https://github.com/Antherpic/Nov-Code-Editor-Version-1.0.git)
+cd Nov-Code-Editor-Version-1.0
+
+# Kompilasi kode
+gcc nov.c -lncurses -o nov
+
+# Pindahkan ke direktori bin global sistem Linux
+sudo mv nov /usr/local/bin/
+
+MAC OS
+
+# Install ncurses lewat brew
+brew install ncurses
+
+# Clone repository
+git clone [https://github.com/Antherpic/Nov-Code-Editor-Version-1.0.git](https://github.com/Antherpic/Nov-Code-Editor-Version-1.0.git)
+cd Nov-Code-Editor-Version-1.0
+
+# Kompilasi kode
+gcc nov.c -lncurses -o nov
+
+# Pindahkan ke folder biner global Mac
+sudo mv nov /usr/local/bin/
+
